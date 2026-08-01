@@ -56,3 +56,13 @@ node cybersocks.js cron --tee --hour 9
 ## Telegram
 
 Pass `--telegram` after a real audit (not `--dry-run`). Messages use HTML: bold headers, posture icons (🟢🟡🔴), sensor severity strip, mode badges.
+
+## Pitch video (VHS)
+
+```bash
+vhs demo/pitch.tape
+# → demo/cybersocks-pitch.mp4
+# → demo/cybersocks-pitch.gif
+```
+
+Slides: SOC → LLM data exposure → TEE / uncensored → NEAR AI → cyberSOCks → live `audit --tee` → [github.com/foxreymann/cyberSOCks](https://github.com/foxreymann/cyberSOCks).

@@ -3,4 +3,5 @@
 node_modules/
 .last_audit.json
 cch-cron.log
+cybersocks-cron.log
 *.log
