@@ -84,6 +84,22 @@ slide_product() {
   pause_hint "cyberSOCks · pitch"
 }
 
+slide_howto() {
+  clear
+  title "06  How to use"
+  printf '\n'
+  bullet "Install on every server (and laptop)"
+  sub "clone repo · set .env keys · run cybersocks"
+  printf '\n'
+  bullet "Schedule with cron"
+  sub "node cybersocks.js cron --tee --hour 9"
+  sub "daily audit on each host, hands-off"
+  printf '\n'
+  bullet "Get the briefing on Telegram"
+  sub "styled daily report with actionable next steps"
+  pause_hint "cyberSOCks · pitch"
+}
+
 slide_demo() {
   clear
   printf '\n\n\n'
@@ -98,7 +114,7 @@ slide_demo() {
 
 slide_thanks() {
   clear
-  title "07  Thanks"
+  title "08  Thanks"
   printf '\n  %sgithub.com/foxreymann/cyberSOCks%s\n\n' "$B$C" "$R"
   bullet "Node.js with zero deps — no npm supply chain attack risk"
   bullet "TEE when privacy matters · Laguna when you iterate"
@@ -113,10 +129,11 @@ case "${1:-}" in
   models) slide_models ;;
   near) slide_near ;;
   product) slide_product ;;
+  howto) slide_howto ;;
   demo) slide_demo ;;
   thanks) slide_thanks ;;
   *)
-    echo "usage: $0 {soc|risk|models|near|product|demo|thanks}"
+    echo "usage: $0 {soc|risk|models|near|product|howto|demo|thanks}"
     exit 1
     ;;
 esac

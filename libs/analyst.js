@@ -1,8 +1,8 @@
 import { summaryForPrompt } from './collect.js'
 
 const systemPrompt = `You are the lead analyst in a Cyber Security Operations Center (SOC).
-You receive a host security audit bundle collected from a laptop acting as the monitored node
-(hackathon / laptop-lab mode — treat it like a production server).
+You receive a host security audit bundle collected from a production server
+(or any Linux host under SOC monitoring).
 
 Produce a concise daily SOC briefing:
 1. Overall posture: GREEN / AMBER / RED (one word first line after a short header)

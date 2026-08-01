@@ -1,7 +1,7 @@
 {
   "name": "cybersocks",
   "version": "0.1.0",
-  "description": "cyberSOCks — Cyber Security Operations Center laptop audit CLI",
+  "description": "cyberSOCks — Cyber Security Operations Center server audit CLI",
   "type": "module",
   "engines": {
     "node": ">=22.0.0"

@@ -1,6 +1,6 @@
 # cyberSOCks
 
-Cyber Security Operations Center — laptop host audit CLI.
+Cyber Security Operations Center — server host audit CLI.
 
 Sweeps local sensors, asks an LLM for a SOC briefing, optionally posts a styled update to Telegram.
 

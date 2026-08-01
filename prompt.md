@@ -2,6 +2,14 @@ AI, don't edit this file
 
 #
 
+- video should be slower, take around 120 seconds
+- add HOW TO USE slide
+  - install on every server ( and laptop )
+  - schedule with cron
+  - get briefing on Telegram
+
+#
+
 this is for servers, not laptops only
 
 #

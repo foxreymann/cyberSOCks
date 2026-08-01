@@ -122,7 +122,7 @@ export function formatTelegramBriefing(bundle, briefing) {
 export function logBanner() {
   console.log(`${c.green}${line('═')}${c.reset}`)
   console.log(`${c.bold}${c.green}cyberSOCks${c.reset}  ${c.bold}Cyber Security Operations Center${c.reset}`)
-  console.log(`${c.dim}daily host audit · laptop SOC${c.reset}`)
+  console.log(`${c.dim}daily host audit · server SOC${c.reset}`)
   console.log(`${c.green}${line('═')}${c.reset}`)
 }
 
@@ -244,7 +244,7 @@ export function logError(msg) {
 export function logCron(lineText) {
   console.log('Add to crontab (crontab -e):\n')
   console.log(`  ${lineText}`)
-  console.log(`\n${c.dim}Hackathon tip: run on your laptop — no remote server required.${c.reset}`)
+  console.log(`\n${c.dim}Tip: schedule on each server with cron — Telegram delivers the briefing.${c.reset}`)
 }
 
 export function logDryRun() {
