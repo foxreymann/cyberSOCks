@@ -1,0 +1,6 @@
+.env
+.env.local
+node_modules/
+.last_audit.json
+cch-cron.log
+*.log

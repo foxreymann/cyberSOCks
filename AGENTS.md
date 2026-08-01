@@ -1,0 +1,9 @@
+- DRY.
+- always code for the newest JS features, assume we use latests node.js version
+- Think hard to write good, up to date, fast node.js code.
+- THIS IS IMPORTANT. Don't add semicolons at the end of JS code lines as this is not necessary
+- Use global variables. Like global.pairs is avaiable everywhere as pairs.
+- use camelCase
+- 2 spaces for indentation
+- Business logic and display logic should be separated. Business logic returns data used by display logic in logs library
+- never edit prompt.md, use README.md
