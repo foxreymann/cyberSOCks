@@ -1,0 +1,38 @@
+cyberSOCks — private SOC briefings with Cursor + NEAR AI TEE
+
+Built for Cursor Hackathon
+
+What if your Security Operations Center could get a daily AI briefing — without shipping sensitive logs to a normal public LLM?
+
+cyberSOCks is a Node.js CLI that:
+• audits each server (and laptop) for ports, auth, disk, updates, and more
+• analyzes findings with an LLM
+• posts an actionable daily briefing to Telegram
+• runs on cron, hands-off
+
+Two modes:
+• non-TEE → OpenCode Zen · Laguna S 2.1 Free (fast iteration)
+• TEE → NEAR AI Cloud · confidential GPU inference (privacy you can prove)
+
+Why TEE matters for SOC:
+Sensitive host data stays encrypted on the host and is decrypted only inside the LLM GPU enclave. Hardware attestation means you verify — you don’t just trust.
+
+Top TEE models on NEAR AI Cloud:
+• Qwen 3.6 35B A3B FP8
+• Kimi 2.6
+• GLM 5.2
+• DeepSeek V4 Flash
+
+Built with Cursor.
+Cursor made this possible in a hackathon sprint — agentic coding, fast iteration, and shipping a full CLI + pitch video without drowning in boilerplate. From sensors to Telegram HTML briefings to a VHS demo reel, Cursor was the force multiplier.
+
+Zero npm dependencies — no npm supply-chain attack surface.
+
+How to use:
+1. Install on every server (and laptop)
+2. Schedule with cron
+3. Get the briefing on Telegram
+
+Thanks to Cursor for the hackathon, and to NEAR AI for confidential inference.
+
+#Cursor #CursorHackathon #cybersecurity #SOC #NEARAI #TEE #LLM #Telegram #opensource

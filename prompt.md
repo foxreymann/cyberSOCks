@@ -2,6 +2,30 @@ AI, don't edit this file
 
 #
 
+add @demo/tg.jpg slide after demo, before thanks
+
+#
+
+don't generae the video, I will run the generate
+
+# 
+
+the video didn't generate correctly, it cuts off during demo
+
+#
+
+don't render the video, I will run rendering by myself
+
+# 
+
+create youtube video description
+
+praise cursor 
+
+project for https://luma.com/cursor-h41d?tk=zS2Bo6
+
+#
+
 - video should be slower, take around 120 seconds
 - add HOW TO USE slide
   - install on every server ( and laptop )

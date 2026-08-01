@@ -32,37 +32,37 @@ Show
 # ─── Slide 1: SOC ───
 Type "./demo/slides.sh soc"
 Enter
-Sleep 10s
+Sleep 8s
 
 # ─── Slide 2: data exposure ───
 Type "./demo/slides.sh risk"
 Enter
-Sleep 11s
+Sleep 9s
 
 # ─── Slide 3: TEE + uncensored ───
 Type "./demo/slides.sh models"
 Enter
-Sleep 12s
+Sleep 10s
 
 # ─── Slide 4: NEAR AI ───
 Type "./demo/slides.sh near"
 Enter
-Sleep 12s
+Sleep 10s
 
 # ─── Slide 5: cyberSOCks product ───
 Type "./demo/slides.sh product"
 Enter
-Sleep 11s
+Sleep 9s
 
 # ─── Slide 6: How to use ───
 Type "./demo/slides.sh howto"
 Enter
-Sleep 12s
+Sleep 10s
 
 # ─── Slide 7: DEMO TIME ───
 Type "./demo/slides.sh demo"
 Enter
-Sleep 5s
+Sleep 4s
 
 # ─── Slide 8: live CLI run ───
 Hide
@@ -71,9 +71,14 @@ Enter
 Show
 Type "node cybersocks.js audit --tee --quiet"
 Enter
-Sleep 16s
+# TEE audit ~15–25s; leave headroom + reading time for the briefing
+Sleep 40s
 
 # ─── Slide 9: GitHub + thanks ───
+Hide
+Type "clear"
+Enter
+Show
 Type "./demo/slides.sh thanks"
 Enter
 Sleep 10s
